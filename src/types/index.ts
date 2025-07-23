@@ -17,3 +17,28 @@ export type Agent = {
   phone: string;
   isActive: boolean;
 };
+
+export interface Payout {
+  amount: number;
+  date: string;
+  method: string;
+}
+
+export interface Wallet {
+  agentName: string;
+  balance: number;
+  payouts: Payout[];
+}
+
+export type Vendor = {
+  id: string;
+  name: string;
+  email: string;
+  location: string;
+  registeredAt: string;
+};
+
+export type ChartDatum = {
+  status: string;
+  count: number;
+};
