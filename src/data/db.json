@@ -1,0 +1,262 @@
+{
+  "parcels": [
+    {
+      "id": "1",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "agent": "Agent Karanja",
+      "status": "delivered",
+      "createdAt": "2025-07-23T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "sender": "Fatuma",
+      "receiver": "Otieno",
+      "agent": "Agent Wafula",
+      "status": "failed",
+      "createdAt": "2025-07-22T14:00:00Z"
+    },
+    {
+      "id": "3",
+      "sender": "Kevin",
+      "receiver": "Linda",
+      "agent": "Agent Karanja",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T09:15:00Z"
+    },
+    {
+      "id": "4",
+      "sender": "Juma",
+      "receiver": "Mwende",
+      "agent": "Agent Achieng",
+      "status": "failed",
+      "createdAt": "2025-07-21T13:00:00Z"
+    },
+    {
+      "id": "5",
+      "sender": "Ruth",
+      "receiver": "Brian",
+      "agent": "Agent Wafula",
+      "status": "delivered",
+      "createdAt": "2025-07-23T11:45:00Z"
+    },
+    {
+      "id": "6",
+      "sender": "Sam",
+      "receiver": "Diana",
+      "agent": "Agent Karanja",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T08:00:00Z"
+    },
+    {
+      "id": "7",
+      "sender": "Ali",
+      "receiver": "Faith",
+      "agent": "Agent Achieng",
+      "status": "delivered",
+      "createdAt": "2025-07-20T08:00:00Z"
+    },
+    {
+      "id": "8",
+      "sender": "Ibrahim",
+      "receiver": "Sheila",
+      "agent": "Agent Wafula",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T10:00:00Z"
+    },
+    {
+      "id": "9",
+      "sender": "Njeri",
+      "receiver": "Mutiso",
+      "agent": "Agent Karanja",
+      "status": "failed",
+      "createdAt": "2025-07-22T09:00:00Z"
+    },
+    {
+      "id": "10",
+      "sender": "George",
+      "receiver": "Mercy",
+      "agent": "Agent Otieno",
+      "status": "delivered",
+      "createdAt": "2025-07-23T07:30:00Z"
+    },
+    {
+      "id": "11",
+      "sender": "Brian",
+      "receiver": "Nana",
+      "agent": "Agent Fatuma",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T10:20:00Z"
+    },
+    {
+      "id": "12",
+      "sender": "Rose",
+      "receiver": "Daniel",
+      "agent": "Agent Fatuma",
+      "status": "delivered",
+      "createdAt": "2025-07-22T15:00:00Z"
+    },
+    {
+      "id": "13",
+      "sender": "Tasha",
+      "receiver": "Kelvin",
+      "agent": "Agent Grace",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T12:00:00Z"
+    },
+    {
+      "id": "14",
+      "sender": "Sharon",
+      "receiver": "Collins",
+      "agent": "Agent Grace",
+      "status": "failed",
+      "createdAt": "2025-07-21T13:20:00Z"
+    },
+    {
+      "id": "15",
+      "sender": "Ann",
+      "receiver": "Ben",
+      "agent": "Agent Moses",
+      "status": "delivered",
+      "createdAt": "2025-07-23T14:00:00Z"
+    },
+    {
+      "id": "16",
+      "sender": "Esther",
+      "receiver": "Victor",
+      "agent": "Agent Achieng",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T09:10:00Z"
+    },
+    {
+      "id": "17",
+      "sender": "Fidel",
+      "receiver": "Chris",
+      "agent": "Agent Moses",
+      "status": "delivered",
+      "createdAt": "2025-07-22T12:45:00Z"
+    },
+    {
+      "id": "18",
+      "sender": "Grace",
+      "receiver": "Hassan",
+      "agent": "Agent Otieno",
+      "status": "delivered",
+      "createdAt": "2025-07-23T11:15:00Z"
+    },
+    {
+      "id": "19",
+      "sender": "Zainab",
+      "receiver": "Yusuf",
+      "agent": "Agent Otieno",
+      "status": "failed",
+      "createdAt": "2025-07-20T08:30:00Z"
+    },
+    {
+      "id": "20",
+      "sender": "Janet",
+      "receiver": "Peter",
+      "agent": "Agent Fatuma",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T13:40:00Z"
+    },
+    {
+      "id": "21",
+      "sender": "Liam",
+      "receiver": "Noah",
+      "agent": "Agent Karanja",
+      "status": "delivered",
+      "createdAt": "2025-07-23T14:30:00Z"
+    },
+    {
+      "id": "22",
+      "sender": "Elijah",
+      "receiver": "Mason",
+      "agent": "Agent Otieno",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T13:10:00Z"
+    },
+    {
+      "id": "23",
+      "sender": "Lucas",
+      "receiver": "Logan",
+      "agent": "Agent Grace",
+      "status": "in_transit",
+      "createdAt": "2025-07-23T10:05:00Z"
+    },
+    {
+      "id": "24",
+      "sender": "James",
+      "receiver": "Emma",
+      "agent": "Agent Wafula",
+      "status": "failed",
+      "createdAt": "2025-07-21T08:50:00Z"
+    },
+    {
+      "id": "25",
+      "sender": "Sophia",
+      "receiver": "Olivia",
+      "agent": "Agent Fatuma",
+      "status": "delivered",
+      "createdAt": "2025-07-23T11:50:00Z"
+    }
+  ],
+  "agents": [
+    {
+      "id": "1",
+      "name": "Karanja Moses",
+      "location": "Nairobi",
+      "phone": "0712345678",
+      "isActive": false
+    },
+    {
+      "id": "2",
+      "name": "Fatuma Hassan",
+      "location": "Mombasa",
+      "phone": "0798765432",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "name": "Wafula Brian",
+      "location": "Kisumu",
+      "phone": "0745678901",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "name": "Achieng Grace",
+      "location": "Eldoret",
+      "phone": "0722456754",
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "name": "Otieno James",
+      "location": "Kakamega",
+      "phone": "0711122233",
+      "isActive": false
+    },
+    {
+      "id": "6",
+      "name": "Moses Limo",
+      "location": "Nakuru",
+      "phone": "0733344455",
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "name": "Grace Naliaka",
+      "location": "Meru",
+      "phone": "0755566677",
+      "isActive": true
+    },
+    {
+      "id": "8",
+      "name": "Tony Wanyama",
+      "location": "Thika",
+      "phone": "0767788899",
+      "isActive": false
+    }
+  ]
+}
