@@ -45,7 +45,7 @@ const SignUp = () => {
         className="p-8 rounded shadow w-full max-w-md md:gap-7 bg-[#181A1E] shadow-gray-200"
         noValidate
       >
-        <h2 className="text-2xl md:text-4xl font-bold mb-3 text-center text-[#DDDDF6]">
+        <h2 className="text-3xl font-bold mb-3 text-center text-[#DDDDF6]">
           Join Escrow Courier
         </h2>
         <h3 className="text-xl p-3 mb-4 text-[#C9C3C3] text-center">
@@ -69,7 +69,7 @@ const SignUp = () => {
           type="password"
           name="password"
           placeholder="Password"
-          className="w-full mb-4 p-3 border rounded"
+          className="w-full mb-4 p-3 border border-gray-600 rounded"
           value={formData.password}
           onChange={handleChange}
         />
@@ -78,7 +78,7 @@ const SignUp = () => {
           type="password"
           name="confirmPassword"
           placeholder="Confirm Password"
-          className="w-full mb-6 p-3 border rounded"
+          className="w-full mb-6 p-3 border border-gray-600 rounded"
           value={formData.confirmPassword}
           onChange={handleChange}
         />

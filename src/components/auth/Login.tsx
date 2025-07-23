@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { loginSchema, type LoginData } from "../lib/validation";
 
-
 const Login = () => {
   const { isAuthenticated, login } = useAuth();
   const navigate = useNavigate();
@@ -35,7 +34,7 @@ const Login = () => {
           Welcome back
         </h2>
         <h3 className="text-xl text-[#C9C3C3] text-center">
-          Log in to continue to Escrow Courier
+          Access your Escrow Courier dashboard
         </h3>
 
         <div>
@@ -58,7 +57,9 @@ const Login = () => {
             className="w-full p-3 border border-gray-600 rounded bg-[#1f2126] text-white placeholder:text-gray-400"
           />
           {errors.password && (
-            <p className="text-red-500 text-sm mt-1">{errors.password.message}</p>
+            <p className="text-red-500 text-sm mt-1">
+              {errors.password.message}
+            </p>
           )}
         </div>
 
