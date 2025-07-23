@@ -1,0 +1,36 @@
+{
+  "parcels": [
+    {
+      "id": "1",
+      "sender": "Alice",
+      "receiver": "Bob",
+      "agent": "Agent Karanja",
+      "status": "delivered",
+      "createdAt": "2025-07-21"
+    },
+    {
+      "id": "2",
+      "sender": "Fatuma",
+      "receiver": "Otieno",
+      "agent": "Agent Wafula",
+      "status": "failed",
+      "createdAt": "2025-07-20"
+    }
+  ],
+  "agents": [
+    {
+      "id": "1",
+      "name": "Karanja Moses",
+      "location": "Nairobi",
+      "phone": "0712345678",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "name": "Fatuma Hassan",
+      "location": "Mombasa",
+      "phone": "0798765432",
+      "isActive": false
+    }
+  ]
+}
