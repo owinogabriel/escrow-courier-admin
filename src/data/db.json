@@ -258,5 +258,86 @@
       "phone": "0767788899",
       "isActive": false
     }
+  ],
+   "wallets": [
+    {
+      "agentName": "Agent Karanja",
+      "balance": 1500.0,
+      "payouts": [
+        {
+          "amount": 1000.0,
+          "date": "2025-07-20T09:00:00Z",
+          "method": "mpesa"
+        },
+        {
+          "amount": 500.0,
+          "date": "2025-07-22T10:30:00Z",
+          "method": "bank_transfer"
+        }
+      ]
+    },
+    {
+      "agentName": "Agent Fatuma",
+      "balance": 2500.5,
+      "payouts": [
+        {
+          "amount": 750.5,
+          "date": "2025-07-21T15:00:00Z",
+          "method": "mpesa"
+        }
+      ]
+    },
+    {
+      "agentName": "Agent Wafula",
+      "balance": 1800.0,
+      "payouts": [
+        {
+          "amount": 800.0,
+          "date": "2025-07-20T11:00:00Z",
+          "method": "bank_transfer"
+        }
+      ]
+    },
+    {
+      "agentName": "Agent Achieng",
+      "balance": 950.0,
+      "payouts": []
+    },
+    {
+      "agentName": "Agent Otieno",
+      "balance": 1300.0,
+      "payouts": [
+        {
+          "amount": 1300.0,
+          "date": "2025-07-22T14:00:00Z",
+          "method": "mpesa"
+        }
+      ]
+    },
+    {
+      "agentName": "Agent Moses",
+      "balance": 1200.0,
+      "payouts": []
+    },
+    {
+      "agentName": "Agent Grace",
+      "balance": 1050.0,
+      "payouts": [
+        {
+          "amount": 600.0,
+          "date": "2025-07-23T08:15:00Z",
+          "method": "mpesa"
+        }
+      ]
+    }
+  ],
+ "vendors": [
+    {
+      "id": "1",
+      "name": "Vendor Xpress",
+      "email": "vendorx@example.com",
+      "phone": "0711223344", 
+      "status": "approved"
+    }
   ]
 }
