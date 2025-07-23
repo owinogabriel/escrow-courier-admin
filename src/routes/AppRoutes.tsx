@@ -7,6 +7,8 @@ import Dashboard from "../components/dashboard/Dashboard";
 import Agents from "../components/agents/Agents";
 import Parcels from "../components/parcels/Parcels";
 import Reports from "../components/reports/Reports";
+import Vendors from "../components/vendors/Vendors";
+import Wallets from "../components/wallets/wallets";
 
 const AppRoutes = () => {
   return (
@@ -24,9 +26,11 @@ const AppRoutes = () => {
         }
       >
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/parcels" element={<Parcels/>} />
+        <Route path="/parcels" element={<Parcels />} />
         <Route path="/agents" element={<Agents />} />
         <Route path="/reports" element={<Reports />} />
+        <Route path="/vendors" element={<Vendors />} />
+        <Route path="/wallets" element={<Wallets />} />
       </Route>
     </Routes>
   );
