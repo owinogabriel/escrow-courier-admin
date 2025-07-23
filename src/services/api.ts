@@ -14,17 +14,6 @@ export const updateParcelStatus = async (id: string, status: string) => {
   return res.json();
 };
 
-export interface Payout {
-  amount: number;
-  date: string;
-  method: string;
-}
-
-export interface Wallet {
-  agentName: string;
-  balance: number;
-  payouts: Payout[];
-}
 export const fetchAgents = async () => {
   const res = await fetch(`${API_BASE}/agents`);
   return res.json();
