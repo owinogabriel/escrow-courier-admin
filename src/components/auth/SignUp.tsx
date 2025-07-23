@@ -56,7 +56,7 @@ const SignUp = () => {
         <input
           type="email"
           placeholder="Email"
-          className="w-full mb-4 p-3 border placeholder:text-gray-200 bg-gray-500 rounded"
+          className="w-full mb-4 p-3 border rounded"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -64,7 +64,7 @@ const SignUp = () => {
         <input
           type="password"
           placeholder="Password"
-          className="w-full mb-4    placeholder:text-gray-200 bg-gray-500 p-3 border input  rounded"
+          className="w-full mb-4  p-3 border input  rounded"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
@@ -72,7 +72,7 @@ const SignUp = () => {
         <input
           type="password"
           placeholder="Confirm Password"
-          className="w-full label mb-6    placeholder:text-gray-200 bg-gray-500 p-3 border  rounded"
+          className="w-full label mb-6  p-3 border  rounded"
           value={confirm}
           onChange={(e) => setConfirm(e.target.value)}
         />
