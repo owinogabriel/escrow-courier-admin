@@ -7,7 +7,7 @@ import {
   FileText,
   LogOut,
   Building2,
-  Wallet
+  Wallet,
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
@@ -18,7 +18,7 @@ const navItems = [
   { label: "Agents", to: "/agents", icon: Users },
   { label: "Reports", to: "/reports", icon: FileText },
   { label: "Vendors", to: "/vendors", icon: Building2 },
-  { label: "Wallets", to: "/wallets", icon: Wallet }
+  { label: "Wallets", to: "/wallets", icon: Wallet },
 ];
 
 const AdminLayout = () => {
@@ -81,7 +81,7 @@ const AdminLayout = () => {
         className="flex-1 bg-gray-100 overflow-y-auto p-6"
         style={{
           marginLeft: hovered ? "16rem" : "4rem",
-          transition: "margin-left 0.3s"
+          transition: "margin-left 0.3s",
         }}
       >
         <Outlet />
