@@ -338,27 +338,27 @@
       "id": "1ea2"
     }
   ],
- "vendors": [
-  {
-    "id": "1",
-    "name": "Vendor Xpress",
-    "email": "vendorx@example.com",
-    "location": "Nairobi, Kenya",
-    "registeredAt": "2025-07-01T10:15:00Z"
-  },
-  {
-    "id": "2",
-    "name": "Swift Deliveries",
-    "email": "swift@example.com",
-    "location": "Mombasa, Kenya",
-    "registeredAt": "2025-07-10T08:45:00Z"
-  },
-  {
-    "id": "3",
-    "name": "FastMove Logistics",
-    "email": "fastmove@example.com",
-    "location": "Kisumu, Kenya",
-    "registeredAt": "2025-07-18T14:30:00Z"
-  }
-]
+  "vendors": [
+    {
+      "id": "1",
+      "name": "Vendor Xpress",
+      "email": "vendorx@example.com",
+      "location": "Nairobi, Kenya",
+      "registeredAt": "2025-07-01T10:15:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Swift Deliveries",
+      "email": "swift@example.com",
+      "location": "Mombasa, Kenya",
+      "registeredAt": "2025-07-10T08:45:00Z"
+    },
+    {
+      "id": "3",
+      "name": "FastMove Logistics",
+      "email": "fastmove@example.com",
+      "location": "Kisumu, Kenya",
+      "registeredAt": "2025-07-18T14:30:00Z"
+    }
+  ]
 }
