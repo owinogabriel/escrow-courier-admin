@@ -1,4 +1,4 @@
-// src/types/index.ts
+ // types
 export type ParcelStatus = "in_transit" | "delivered" | "failed";
 
 export type Parcel = {
