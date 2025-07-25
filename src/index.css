@@ -7,5 +7,5 @@ input:focus{
 
 input::placeholder{
   color:rgb(229, 231, 235);
-  background-color: rgb(229, 231, 235);;
+  background-color: rgb(229, 231, 235);
 }
