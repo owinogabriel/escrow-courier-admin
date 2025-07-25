@@ -11,7 +11,6 @@ import {
   CartesianGrid,
 } from "recharts";
 
-
 const Dashboard = () => {
   const [totalToday, setTotalToday] = useState(0);
   const [pending, setPending] = useState(0);
@@ -70,8 +69,16 @@ const Dashboard = () => {
 
       {/* Summary Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-        <Card title="Total Parcels Today" value={totalToday} color="bg-blue-500" />
-        <Card title="Pending Deliveries" value={pending} color="bg-yellow-500" />
+        <Card
+          title="Total Parcels Today"
+          value={totalToday}
+          color="bg-blue-500"
+        />
+        <Card
+          title="Pending Deliveries"
+          value={pending}
+          color="bg-yellow-500"
+        />
         <Card title="Active Agents" value={activeAgents} color="bg-green-500" />
       </div>
 
