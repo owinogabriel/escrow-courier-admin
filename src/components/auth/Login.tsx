@@ -42,7 +42,7 @@ const Login = () => {
             type="email"
             placeholder="Email"
             {...register("email")}
-            className="w-full p-3 border border-gray-600 rounded bg-[#1f2126] text-white placeholder:text-gray-400"
+            className="w-full p-3 border border-gray-50 rounded   bg-gray-500 text-black placeholder:text-gray-400"
           />
           {errors.email && (
             <p className="text-red-500 text-sm mt-1">{errors.email.message}</p>
@@ -54,7 +54,7 @@ const Login = () => {
             type="password"
             placeholder="Password"
             {...register("password")}
-            className="w-full p-3 border border-gray-600 rounded bg-[#1f2126] text-white placeholder:text-gray-400"
+            className="w-full p-3 border border-gray-50 rounded   bg-gray-500 text-black placeholder:text-gray-400"
           />
           {errors.password && (
             <p className="text-red-500 text-sm mt-1">
