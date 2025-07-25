@@ -36,7 +36,7 @@ export const fetchVendors = async () => {
     }
     return res.json();
   } catch (error) {
-    console.error('Failed to fetch vendors:', error);
+    console.error("Failed to fetch vendors:", error);
     throw error;
   }
 };
@@ -46,5 +46,3 @@ export const fetchWallets = async () => {
   if (!res.ok) throw new Error("Failed to fetch wallets");
   return res.json();
 };
-
-
