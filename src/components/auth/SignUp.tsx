@@ -60,7 +60,7 @@ const SignUp = () => {
           type="email"
           name="email"
           placeholder="Email"
-          className="w-full mb-4 p-3 border rounded"
+          className="w-full mb-4 p-3 border rounded border-gray-50 bg-gray-500 text-black placeholder:text-gray-400"
           value={formData.email}
           onChange={handleChange}
         />
@@ -69,7 +69,7 @@ const SignUp = () => {
           type="password"
           name="password"
           placeholder="Password"
-          className="w-full mb-4 p-3 border border-gray-600 rounded"
+          className="w-full mb-4 p-3 border border-gray-50 bg-gray-500 text-black placeholder:text-gray-400 rounded"
           value={formData.password}
           onChange={handleChange}
         />
@@ -78,7 +78,7 @@ const SignUp = () => {
           type="password"
           name="confirmPassword"
           placeholder="Confirm Password"
-          className="w-full mb-6 p-3 border border-gray-600 rounded"
+          className="w-full mb-6 p-3 border border-gray-50 rounded   bg-gray-500 text-black placeholder:text-gray-400"
           value={formData.confirmPassword}
           onChange={handleChange}
         />
